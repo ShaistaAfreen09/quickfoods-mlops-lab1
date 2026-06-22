@@ -1,12 +1,61 @@
-# Python virtual environment
+# =========================
+# Python Virtual Environment
+# =========================
 venv/
+.env
 
-# Python cache
+# =========================
+# Python Cache
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.py[cod]
 
-# Jupyter
-.ipynb_checkpoints
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
 
-# OS files
+# =========================
+# MLflow
+# =========================
+mlruns/
+mlartifacts/
+mlflow.db
+
+# =========================
+# Trained Models / Artifacts
+# =========================
+models/*.pkl
+models/*.joblib
+
+# =========================
+# Build & Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System Files
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Docker
+# =========================
+.dockerignore
